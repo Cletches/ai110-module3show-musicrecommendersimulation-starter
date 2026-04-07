@@ -98,6 +98,23 @@ pytest
 
 You can add more tests in `tests/test_recommender.py`.
 
+### Test Results
+
+**Empty profile produces equal scores**
+![test_empty_profile_produces_equal_scores](test_empty_profile_produces_equal_scores.png)
+
+**Genre energy conflict**
+![test_genre_energy_conflict](test_genre_energy_conflict.png)
+
+**Explicit acousticness overrides likes_acoustic**
+![test_explicit_acousticness_overrides_likes_acoustic](test_explicit_acousticness_overrides_likes_acoustic.png)
+
+**Extreme tempo target clamps to zero**
+![test_extreme_tempo_target_clamps_to_zero](test_extreme_tempo_target_clamps_to_zero.png)
+
+**Secondary genre duplicate of primary**
+![test_secondary_genre_duplicate_of_primary](test_secondary_genre_duplicate_of_primary.png)
+
 ---
 
 ## Experiments You Tried

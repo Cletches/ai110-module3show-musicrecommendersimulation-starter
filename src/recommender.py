@@ -34,21 +34,21 @@ class UserProfile:
 # --- Additive point values for categorical features ---
 # Genre: +2.0 primary, +1.0 secondary
 # Mood:  +1.0 primary, +0.5 secondary
-GENRE_MATCH_POINTS     = 2.0
-GENRE_SECONDARY_POINTS = 0.5
+GENRE_MATCH_POINTS     = 1.0
+GENRE_SECONDARY_POINTS = 0.25
 MOOD_MATCH_POINTS      = 1.0
 MOOD_SECONDARY_POINTS  = 0.5
 
 # --- Bonus point caps for numeric features (proximity 0–1 scaled by these) ---
 # Energy is the primary numeric signal; others are smaller bonuses.
 NUMERIC_POINTS = {
-    "energy":       1.0,   # 0.0 – 1.0 pts
+    "energy":       2.0,   # 0.0 – 2.0 pts
     "valence":      0.5,   # 0.0 – 0.5 pts
     "danceability": 0.3,   # 0.0 – 0.3 pts
     "acousticness": 0.1,   # 0.0 – 0.1 pts
     "tempo_bpm":    0.1,   # 0.0 – 0.1 pts
 }
-# Max possible score: 2.0 + 1.0 + 1.0 + 0.5 + 0.3 + 0.1 + 0.1 = 5.0
+# Max possible score: 1.0 + 1.0 + 2.0 + 0.5 + 0.3 + 0.1 + 0.1 = 5.0
 
 # --- Numeric feature ranges for proximity normalization ---
 RANGES = {
