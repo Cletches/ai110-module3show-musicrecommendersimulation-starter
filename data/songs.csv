@@ -9,3 +9,13 @@ id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
 8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
 9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
 10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
+11,Concrete Jungle,Bloc Sovereign,hip-hop,confident,0.78,95,0.62,0.85,0.08
+12,Moonlit Sonata,Clara Voss,classical,melancholic,0.22,66,0.38,0.14,0.97
+13,Rage Circuit,Iron Veil,metal,angry,0.97,180,0.31,0.55,0.04
+14,Dust & Denim,The Ridgewalkers,country,nostalgic,0.48,104,0.73,0.61,0.78
+15,Velvet Hours,Sable Monroe,r&b,romantic,0.55,88,0.80,0.72,0.42
+16,Brass & Motion,The Groove Collective,funk,groovy,0.83,112,0.77,0.91,0.19
+17,Pulse Grid,Axon Drive,electronic,uplifting,0.88,138,0.69,0.87,0.06
+18,Broken Compass,The Still,indie folk,melancholic,0.33,76,0.29,0.38,0.88
+19,Golden Static,Prism Radio,dream pop,nostalgic,0.61,100,0.75,0.68,0.55
+20,Ember & Ash,Southfield,country,melancholic,0.44,98,0.42,0.50,0.82
